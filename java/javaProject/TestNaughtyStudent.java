@@ -14,7 +14,8 @@ public class TestNaughtyStudent  {
         grades.add(54.0);
         grades.add(95.0);
         grades.add(67.0);
-        NaughtyStudent student1 = new NaughtyStudent(grades);
+        NaughtyStudent student1 = new NaughtyStudent(grades,"student1",Level.level1);
         assertEquals(79.2, student1.getAverageGrade());
     }
+
 }
